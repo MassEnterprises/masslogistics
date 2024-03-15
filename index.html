@@ -1,165 +1,141 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mass Enterprises</title>
-<link rel="stylesheet" type="text/css" href="./style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-vC6N5aCwlxmq29+JaJ+nhjAcsL1+9w9faR+unvV5fWjCKLVUa0SMo1aZdUeVw86fcUo4HkZR4ZHO+bR4JJUkWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mass Enterprises</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-vC6N5aCwlxmq29+JaJ+nhjAcsL1+9w9faR+unvV5fWjCKLVUa0SMo1aZdUeVw86fcUo4HkZR4ZHO+bR4JJUkWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <!-- ======================Navbar==================== -->
-    <nav class="nav navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class=" container-fluid">
-            <img class="logo" src="logo.png" alt="Logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="nav-link" href="#ecommerce">E-Commerce</a></li>
-                  <li><a class="nav-link" href="#trucking-services">Truck Dispatch</a></li>
-                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#ecommerce">Market</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#trucking-services">Trucking Services</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-us">Contact Us</a>
-              </li>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <img class="logo" src="logo.png" alt="Logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="nav-link" href="#ecommerce">E-Commerce</a></li>
+              <li><a class="nav-link" href="#trucking-services">Truck Dispatch</a></li>
             </ul>
-          </div>
-
-        </div>
-    </nav>
-
-    <!-- <div class="d-flex  flex-column align-content-between  justify-content-between "> -->
-    <section id="home" class="home position-relative ">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner ">
-            <div class="carousel-item active">
-              <div class="carousel-overlay">
-                <h1 class="slogan">Driving E-Commerce Success, Delivering Logistics Excellence!</h1>
-              </div>
-              <img src="./trail-4529061_1280.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item  ">
-              <div class="carousel-overlay">
-                <h1 class="slogan">Driving E-Commerce Success, Delivering Logistics Excellence!</h1>
-              </div>
-              <img src="./pexels-kindel-media-9716234.jpg" class="d-block w-100 "  alt="...">
-            </div>
-            
-          </div>
-          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-dark " aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-dark " aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-    </section>
-
-    <section id="ecommerce" class="market m-5">
-        <div class="container ">
-            <div class="row">
-                <div class="col-md-4 border-end d-flex justify-content-center  align-items-center ">
-                    <!-- <img src="https://via.placeholder.com/400" class="img-fluid" alt="Placeholder Image"> -->
-                    <img src="./Untitled design.jpg" class="img-fluid h-75 " alt="EcommercePic">
-                </div>
-                <div class="col-md-6 d-flex align-items-center ">
-                    <div class="p-4 ms-5 ">
-                        <h2>E-Commerce Services</h2>
-                        <p>Welcome to Mass Enterprises, your premier e-commerce partner with over two years of proven experience working with industry giants such as eBay, Amazon, Walmart, and numerous other top vendors. Our seasoned team specializes in delivering tailored solutions for every aspect of online retail, from strategic planning and product optimization to inventory management and customer service. With a focus on transparency, communication, and integrity, we are committed to maximizing your success in the dynamic world of e-commerce. Contact us today to discover how our expertise can propel your business forward.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <hr>
-    <section id="trucking-services" class="trucking-services m-5 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center ">
-                    <div class="p-4 ms-5 ">
-                        <h2>Truck Dispatch Services</h2>
-                        <p>MASS Enterprises LLC offers unparalleled dispatch services for owner-operators and small trucking companies through Truck Dispatch 360. Our dedicated team ensures you secure the best freight loads at optimal prices, keeping you consistently loaded week after week. With over 9 years of industry experience and a team of 25+ expert dispatchers, we navigate the roads with precision, negotiating top rates on your behalf. We handle all paperwork and broker negotiations, allowing you to focus on growing your business. At MASS Enterprises LLC, we prioritize long-term partnerships, understanding that your success is our success. Let us maximize your earning potential and drive your business forward with our comprehensive dispatch services.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 border-start d-flex justify-content-center  align-items-center">
-                    <img src="./pexels-photoscom-93398.jpg" class="img-fluid h-75 " alt="TruckPic">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <hr>
-
-    <br>
-    <br>
-    <br>
-
-    <section id="contact-us" class="contact  ">
-      <div class="container d-flex justify-content-center align-items-center ">
-          <div class="row ">
-              <div class="col-md-7 d-flex flex-column justify-content-center">
-                  <h2>Contact Us</h2>
-                  <p>Have questions or ready to elevate your truck dispatch services? Reach out to us today! Our dedicated team at MASS Enterprises LLC is here to support you every step of the way. Whether you're seeking more information about our dispatch solutions, have specific inquiries, or are ready to partner with us for long-term success, we're just a message or call away. Contact us now to experience the difference our personalized approach can make for your business.</p>
-                  <h4>Phone: +1 123-456-7890</h4>
-                  <h4>Email: info@example.com</h4>
-                  
-              </div>
-              <div class="col-md-5 ">
-                  <!-- <ul class="list-unstyled">
-                      <li>
-                          <i class="fas fa-phone-alt"></i> Phone: +1 123-456-7890
-                      </li>
-                      <li>
-                          <i class="fas fa-envelope"></i> Email: info@example.com
-                      </li> -->
-                      <div class="mt-5 ">
-                        <img src="./pexels-pixabay-326576.jpg" class="img-fluid h-50 rounded" alt="EcommercePic">
-                      </div>
-<!--                       
-                  </ul> -->
-              </div>
-          </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home position-relative">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-overlay">
+            <h1 class="slogan">Driving E-Commerce Success, Delivering Logistics Excellence!</h1>
+          </div>
+          <img src="./trail-4529061_1280.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-overlay">
+            <h1 class="slogan">Driving E-Commerce Success, Delivering Logistics Excellence!</h1>
+          </div>
+          <img src="./pexels-kindel-media-9716234.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
-  <br>
-  <br>
+  <!-- E-Commerce Section -->
+  <section id="ecommerce" class="market py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 border-end text-center">
+          <img src="./Untitled design.jpg" class="img-fluid h-75" alt="EcommercePic">
+        </div>
+        <div class="col-md-8 d-flex align-items-center">
+          <div class="p-4">
+            <h2>E-Commerce Services</h2>
+            <p>Welcome to Mass Enterprises, your premier e-commerce partner with over two years of proven experience working with industry giants such as eBay, Amazon, Walmart, and numerous other top vendors. Our seasoned team specializes in delivering tailored solutions for every aspect of online retail, from strategic planning and product optimization to inventory management and customer service. With a focus on transparency, communication, and integrity, we are committed to maximizing your success in the dynamic world of e-commerce. Contact us today to discover how our expertise can propel your business forward.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <hr>
-  <!-- </div> -->
-    <!-- You can add more sections as needed -->
 
-    <footer class=" py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#ecommerce" class="nav-link px-2 text-muted">E-commerce Services</a></li>
-        <li class="nav-item"><a href="#trucking-services" class="nav-link px-2 text-muted">Trucking Services</a></li>
-        <li class="nav-item"><a href="#contact-us" class="nav-link px-2 text-muted">Contact Us</a></li>
-      </ul>
-      <p class="text-center text-muted">© 2021 Mass Enterprises, LLC</p>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Truck Dispatch Section -->
+  <section id="trucking-services" class="trucking-services py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 d-flex align-items-center">
+          <div class="p-4">
+            <h2>Truck Dispatch Services</h2>
+            <p>MASS Enterprises LLC offers unparalleled dispatch services for owner-operators and small trucking companies. Our dedicated team ensures you secure the best freight loads at optimal prices, keeping you consistently loaded week after week. With over 9 years of industry experience and a team of 25+ expert dispatchers, we navigate the roads with precision, negotiating top rates on your behalf. We handle all paperwork and broker negotiations, allowing you to focus on growing your business. At MASS Enterprises LLC, we prioritize long-term partnerships, understanding that your success is our success. Let us maximize your earning potential and drive your business forward with our comprehensive dispatch services.</p>
+          </div>
+        </div>
+        <div class="col-md-4 border-start text-center">
+          <img src="./pexels-photoscom-93398.jpg" class="img-fluid h-75" alt="TruckPic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Contact Us Section -->
+  <section id="contact-us" class="contact py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 ">
+          <h2>Contact Us</h2>
+          <p>Have questions or ready to elevate your truck dispatch services? Reach out to us today! Our dedicated team at MASS Enterprises LLC is here to support you every step of the way. Whether you're seeking more information about our dispatch solutions, have specific inquiries, or are ready to partner with us for long-term success, we're just a message or call away. Contact us now to experience the difference our personalized approach can make for your business.</p>
+          <h4>Phone: +1 224-368-2001</h4>
+          <h4>Email: MASS.HubEnterprises@outlook.com</h4>
+        </div>
+        <div class="col-md-5 border-start d-flex justify-content-center align-items-center">
+          <img src="./pexels-pixabay-326576.jpg" class="img-fluid h-75 rounded" alt="ContactPic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#ecommerce" class="nav-link px-2 text-muted">E-commerce Services</a></li>
+      <li class="nav-item"><a href="#trucking-services" class="nav-link px-2 text-muted">Trucking Services</a></li>
+      <li class="nav-item"><a href="#contact-us" class="nav-link px-2 text-muted">Contact Us</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Mass Enterprises, LLC</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

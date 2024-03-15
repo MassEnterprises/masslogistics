@@ -14,9 +14,9 @@ body {
 }
 
 
-.corousel-Img {
+/* .corousel-Img {
     height: 50%;
-}
+} */
 
 .container {
     /* height: 13vh; */
@@ -32,10 +32,47 @@ body {
     width: auto;
 }
 
-.carousel-item {
+/* .carousel-item {
     height: 700px;
     overflow: hidden;
-}
+} */
+
+
+@media (min-width: 500px) {
+    /* CSS rules here */
+    .carousel-item {
+        height: 300px;
+        overflow: hidden;
+    }
+  }
+
+/* For screens with minimum width of 768px (tablets) */
+@media (min-width: 768px) {
+    /* CSS rules here */
+    .carousel-item {
+        height: 400px;
+        overflow: hidden;
+    }
+  }
+  
+  /* For screens with minimum width of 992px (desktops) */
+  @media (min-width: 992px) {
+    /* CSS rules here */
+    .carousel-item {
+        height: 500px;
+        overflow: hidden;
+    }
+  }
+  
+  /* For screens with minimum width of 1200px (large desktops) */
+  @media (min-width: 1200px) {
+    /* CSS rules here */
+    .carousel-item {
+        height: 700px;
+        overflow: hidden;
+    }
+  }
+  
 
 .carousel-item img {
     object-fit: cover; 
