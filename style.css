@@ -38,7 +38,15 @@ body {
 } */
 
 
-@media (min-width: 500px) {
+@media (min-width: 300px) {
+    /* CSS rules here */
+    .carousel-item {
+        height: 200px;
+        overflow: hidden;
+    }
+  }
+
+@media (min-width: 566px) {
     /* CSS rules here */
     .carousel-item {
         height: 300px;
